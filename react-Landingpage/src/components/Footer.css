@@ -1,0 +1,30 @@
+footer {
+  background-color: gray;
+}
+footer .grid {
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+footer article img {
+  width: 300px;
+  height: 320px;
+}
+footer article h4 {
+  margin-top: 20px;
+  color: rgb(107, 107, 238);
+}
+footer article p {
+  margin-top: 20px;
+}
+footer article p:nth-of-type(2) {
+  color: rgb(132, 160, 91);
+}

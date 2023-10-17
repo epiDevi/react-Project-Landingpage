@@ -1,0 +1,33 @@
+.titel {
+  text-align: center;
+  margin: 40px auto;
+  width: 1056px;
+}
+.titel h3 {
+  color: var(--green);
+}
+.titel h2 {
+  font-size: 3rem;
+}
+main img {
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+}
+main article {
+  align-items: normal;
+  margin-bottom: 30px;
+}
+main article div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+main article div p {
+  margin-top: 5px;
+}
+main .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+}
